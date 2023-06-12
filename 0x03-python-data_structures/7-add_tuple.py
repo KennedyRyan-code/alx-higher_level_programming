@@ -12,4 +12,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
 
     # Return the new tuple sum
     return (sum1, sum2)
-
