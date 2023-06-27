@@ -48,7 +48,7 @@ class Square:
             value (tuple): The position of the square.
 
         Raises:
-            TypeError: If value is not a tuple or does not contain 2 positive integers.
+            TypeError: If value is not a tuple or does not contain 2 +int.
             ValueError: If position values are less than 0.
         """
         if not isinstance(value, tuple) or len(value) != 2 or \
