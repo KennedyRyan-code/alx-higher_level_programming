@@ -1,0 +1,22 @@
+===========================
+Test cases for 0-add_integer module
+===========================
+
+This module defines an integer addition function ``add_integer(a, b=98)``.
+
+>>> add_integer(5, 3)
+8
+
+>>> add_integer(4.5, 2.1)
+6
+
+>>> add_integer(10.2, 2)
+12
+
+>>> add_integer(3.7)
+101
+
+>>> add_integer(5, "2")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer or b must be an integer
