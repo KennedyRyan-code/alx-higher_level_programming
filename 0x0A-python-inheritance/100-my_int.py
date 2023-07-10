@@ -3,6 +3,8 @@
 
 
 class MyInt(int):
+    """Invert int operators == and !=."""
+
     def __eq__(self, other):
         """
         Inverted equality comparison.
