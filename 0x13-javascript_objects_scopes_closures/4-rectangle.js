@@ -21,6 +21,17 @@ class Rectangle {
       console.log(row);
     }
   }
+
+  rotate () {
+    // Exchange the width and height of the rectangle
+    [this.width, this.height] = [this.height, this.width];
+  }
+
+  double () {
+    // Multiply the width and height of the rectangle by 2
+    this.width *= 2;
+    this.height *= 2;
+  }
 }
 
 module.exports = Rectangle;
