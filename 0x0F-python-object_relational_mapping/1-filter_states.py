@@ -2,8 +2,8 @@
 """
 Lists all states with a name starting with N
 """
-import sys
-import MySQLdb
+from sys import argv
+import MySQLdb as db
 
 """
 Access to the database and get the states
