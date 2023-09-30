@@ -10,8 +10,4 @@ if __name__ == "__main__":
 
     response = requests.get('https://api.github.com/user',
                             auth=HTTPBasicAuth(username, token))
-
-    if response.status_code == 200:
-        print(response.json().get('id'))
-    else:
-        print("Error: {}".format(response.status_code))
+    print(response.json().get('id'))
